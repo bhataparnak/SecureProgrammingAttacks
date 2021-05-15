@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.3" sequence="3" timestamp="1619147436571" analysisTimestamp="1619147435757" release="">
+  <Project projectName="Static_code_analysis">
+    <Jar>C:\Users\Aparna\eclipse-workspace\Static_code_analysis\bin\Static_code\Sample.class</Jar>
+    <AuxClasspathEntry>C:\Users\Aparna\eclipse-workspace\Static_code_analysis\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-14.0.1\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Aparna\eclipse-workspace\Static_code_analysis\src</SrcDir>
+  </Project>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="Static_code.SimpleWebServer">
+      <SourceLine classname="Static_code.SimpleWebServer" sourcefile="SimpleWebServer.java" sourcepath="Static_code/SimpleWebServer.java"/>
+    </Class>
+    <Field classname="Static_code.SimpleWebServer" name="dServerSocket" signature="Ljava/net/ServerSocket;" isStatic="true">
+      <SourceLine classname="Static_code.SimpleWebServer" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="SimpleWebServer.java" sourcepath="Static_code/SimpleWebServer.java"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 22 Apr 2021 22:05:46 -0500" total_classes="1" referenced_classes="14" total_bugs="1" total_size="5" num_packages="1" java_version="14.0.1" vm_version="14.0.1+7" cpu_seconds="123.12" clock_seconds="216621.57" peak_mbytes="555.99" alloc_mbytes="2048.00" gc_seconds="2.64" priority_2="1">
+    <PackageStats package="Static_code" total_bugs="1" total_types="2" total_size="5" priority_2="1">
+      <ClassStats class="Static_code.Sample" sourceFile="Sample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="362" invocations="340" avgMicrosecondsPerInvocation="1067" maxMicrosecondsPerInvocation="53914" standardDeviationMicrosecondsPerInvocation="3454"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="127" invocations="2" avgMicrosecondsPerInvocation="63907" maxMicrosecondsPerInvocation="100615" standardDeviationMicrosecondsPerInvocation="36708"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="85" invocations="342" avgMicrosecondsPerInvocation="251" maxMicrosecondsPerInvocation="20517" standardDeviationMicrosecondsPerInvocation="1119"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="36" invocations="14" avgMicrosecondsPerInvocation="2596" maxMicrosecondsPerInvocation="22551" standardDeviationMicrosecondsPerInvocation="6039"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1619146804418" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1619146804418" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1619147167949" release="" codeSize="5" numClasses="1"/>
+  </History>
+</BugCollection>
