@@ -101,11 +101,11 @@ The goal of this assignment is to familiarize you with using open source static 
 
 ### 11. Input Validation
 
-The goal of this assignment is to produce a program that validates its input using regular
+The goal of this assignment is to produce a program that validates its input using regular expressions.
 
 ### Capture the Flag
 
-expressions
+
 
 
 
